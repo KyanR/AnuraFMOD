@@ -4,9 +4,6 @@
 		<relationship name="projectSettings">
 			<destination>{0a1c1e22-6a08-4b5b-9e2b-8d311ff87226}</destination>
 		</relationship>
-		<relationship name="sourceControlProvider">
-			<destination>{3c9e2460-cbce-4f77-8376-bfc8e92f1316}</destination>
-		</relationship>
 		<relationship name="changelist">
 			<destination>{31f642fc-d96c-4c6d-b24c-b3cc7bd67c86}</destination>
 		</relationship>
@@ -18,14 +15,6 @@
 		<relationship name="activePlatform">
 			<destination>{72576486-3d12-4ee0-ac63-45d5375d4a0e}</destination>
 		</relationship>
-	</object>
-	<object class="ScriptBasedProvider" id="{3c9e2460-cbce-4f77-8376-bfc8e92f1316}">
-		<property name="name">
-			<value>SVN</value>
-		</property>
-		<property name="settings">
-			<value>{"svnserver":"","svnusername":"","svnpassword":"","svnExecutable":""}</value>
-		</property>
 	</object>
 	<object class="WorkspaceChangelist" id="{31f642fc-d96c-4c6d-b24c-b3cc7bd67c86}" />
 </objects>
