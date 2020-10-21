@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Workspace" id="{503794bf-dea8-4033-a9cc-8855d9dea770}">
+		<property name="builtBanksOutputDirectory">
+			<value>I:/Applications (x86)/Unity Projects/Collab Projects/ANURA/ANURA/Assets/FMODBanks/Desktop</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{b8e28b56-9bc9-43a5-80cc-0c0276eac3ca}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{624af519-ae8f-47e6-b0ea-80c61ce17473}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{466bbd20-db19-41ec-962a-de2e1c9c8117}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{5d35a913-71c6-46a7-b08e-97bb9ecaca3e}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{046f5ab2-1869-4cc7-a955-eec2ea0fb11a}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{2930ec92-efed-4b7a-aff4-7f5882af799b}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{da7c17f9-bc31-45c9-b21f-3ef4da16cf03}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{72576486-3d12-4ee0-ac63-45d5375d4a0e}</destination>
+		</relationship>
+	</object>
+</objects>
