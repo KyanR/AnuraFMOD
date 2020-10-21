@@ -2,3 +2,7 @@
 .cache
 .unsaved
 .xml
+
+Metadata/Workspace.xml
+
+*.xml
