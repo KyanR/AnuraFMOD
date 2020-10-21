@@ -1,6 +1,6 @@
-.user 
-.cache
-.unsaved
+*.user 
+*.cache
+*.unsaved
 .xml
 
 Metadata/Workspace.xml
