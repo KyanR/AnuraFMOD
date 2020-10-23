@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{aa9422ca-5acd-4243-b8be-ec5fd7dc37dd}">
+		<property name="name">
+			<value>SpawnedAroundPlayer</value>
+		</property>
+		<relationship name="folder">
+			<destination>{71e8879c-f6cc-4f5c-a7da-22ccda1423c7}</destination>
+		</relationship>
+	</object>
+</objects>
