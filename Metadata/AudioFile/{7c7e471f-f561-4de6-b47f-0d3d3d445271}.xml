@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{7c7e471f-f561-4de6-b47f-0d3d3d445271}">
 		<property name="assetPath">
-			<value>Creepy.space.atmos.wav</value>
+			<value>Music/Creepy.space.atmos.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
