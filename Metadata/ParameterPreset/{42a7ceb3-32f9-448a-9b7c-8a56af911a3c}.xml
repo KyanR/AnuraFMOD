@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{b5056705-56c2-4204-bf48-e0ca8885d0a8}">
+	<object class="ParameterPreset" id="{42a7ceb3-32f9-448a-9b7c-8a56af911a3c}">
 		<property name="name">
-			<value>Wind</value>
+			<value>String2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5d35a913-71c6-46a7-b08e-97bb9ecaca3e}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{f9dd937a-2dee-4597-b96d-aa0d3f960ca4}</destination>
+			<destination>{1c948a25-8f24-4040-81da-39c01bdb2776}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{f9dd937a-2dee-4597-b96d-aa0d3f960ca4}">
+	<object class="GameParameter" id="{1c948a25-8f24-4040-81da-39c01bdb2776}">
 		<property name="initialValue">
 			<value>0</value>
 		</property>
 		<property name="seekSpeed">
 			<value>25</value>
-		</property>
-		<property name="seekSpeedDescending">
-			<value>25</value>
-		</property>
-		<property name="seekSpeedAsymmetric">
-			<value>true</value>
 		</property>
 	</object>
 </objects>
