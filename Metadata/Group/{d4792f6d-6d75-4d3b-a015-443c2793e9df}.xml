@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{d4792f6d-6d75-4d3b-a015-443c2793e9df}">
+		<property name="name">
+			<value>Ambience</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{a06312f6-7fb5-4247-93b8-eefe526381fc}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ff31c5f9-c8e4-421c-8de9-a5737ceea6bf}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{37237ccf-2b06-4588-9c11-2d208ee80437}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a06312f6-7fb5-4247-93b8-eefe526381fc}">
+		<relationship name="effects">
+			<destination>{a19108a4-e89d-4e35-8ee0-2cf4a3d28e1f}</destination>
+			<destination>{88c77f73-78d0-4fbf-86b5-e34c71441ff1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ff31c5f9-c8e4-421c-8de9-a5737ceea6bf}" />
+	<object class="MixerBusFader" id="{a19108a4-e89d-4e35-8ee0-2cf4a3d28e1f}" />
+	<object class="LoudnessMeter" id="{88c77f73-78d0-4fbf-86b5-e34c71441ff1}" />
+</objects>

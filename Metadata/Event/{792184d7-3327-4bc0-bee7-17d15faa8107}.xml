@@ -58,7 +58,7 @@
 			<destination>{1f30f5ca-d5ce-4162-8bc0-20815ab488d1}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{37237ccf-2b06-4588-9c11-2d208ee80437}</destination>
+			<destination>{77a0b7f3-d023-46ff-8e05-7b0958b8c2de}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{716dd569-804a-4bec-9214-39d63347ec60}" />
@@ -91,6 +91,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5ce18760-c849-4d79-b3f3-501b21e874dc}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{362480ff-6ca2-42fe-9aec-c10e5de047f1}</destination>
 		</relationship>
@@ -123,6 +126,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{7a95af05-cd58-4465-a3e1-4586a8a493d4}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="name">
 			<value>StepsWalking</value>
 		</property>
