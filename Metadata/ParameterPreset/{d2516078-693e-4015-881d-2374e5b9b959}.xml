@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{6623a2ee-10d2-469c-905e-b9084d369552}">
+	<object class="ParameterPreset" id="{d2516078-693e-4015-881d-2374e5b9b959}">
 		<property name="name">
-			<value>Concrete</value>
+			<value>Material</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5d35a913-71c6-46a7-b08e-97bb9ecaca3e}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{f5d1cddb-06cf-4b50-9d33-e8b233defa32}</destination>
+			<destination>{52ff9305-5dff-431d-8dab-f8d285dd7406}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{f5d1cddb-06cf-4b50-9d33-e8b233defa32}">
-		<property name="maximum">
-			<value>2</value>
+	<object class="GameParameter" id="{52ff9305-5dff-431d-8dab-f8d285dd7406}">
+		<property name="isHeld">
+			<value>true</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.39000001549720764</value>
 		</property>
 	</object>
 </objects>

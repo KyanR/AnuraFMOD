@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{3bbe136d-0346-4a18-9145-6cce2ec7b1f8}">
+		<property name="assetPath">
+			<value>Footsteps, Water 1 SND23103 6.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.47180208333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2930ec92-efed-4b7a-aff4-7f5882af799b}</destination>
+		</relationship>
+	</object>
+</objects>
