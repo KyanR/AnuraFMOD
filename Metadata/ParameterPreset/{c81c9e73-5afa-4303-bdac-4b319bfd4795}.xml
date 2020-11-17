@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="ParameterPreset" id="{c81c9e73-5afa-4303-bdac-4b319bfd4795}">
 		<property name="name">
-			<value>Percussion</value>
+			<value>Success</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5d35a913-71c6-46a7-b08e-97bb9ecaca3e}</destination>
@@ -19,7 +19,7 @@
 			<value>0.25000002980232239</value>
 		</property>
 		<property name="seekSpeedDescending">
-			<value>0.10999999940395355</value>
+			<value>0.55000001192092896</value>
 		</property>
 		<property name="seekSpeedAsymmetric">
 			<value>true</value>
