@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{ad72ded4-885a-498a-b103-89061e245453}">
 		<property name="name">
-			<value>PuzzleRoom</value>
+			<value>PuzzleRoomSuccess</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
