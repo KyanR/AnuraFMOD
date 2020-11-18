@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{c7103882-8a5e-45e4-98e2-a325da2593a1}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{5d9cbdd4-0cf3-47a4-9282-790b41e2c7d2}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{1879b94d-7ff4-4909-9004-2af3c37b0386}">
 		<relationship name="masterBus">
@@ -140,6 +143,7 @@
 	<object class="MixerBusEffectChain" id="{e5c15637-cbbf-4478-968e-15bea2f26065}">
 		<relationship name="effects">
 			<destination>{f8cc9a0d-686f-4d6a-906e-6fa89f944876}</destination>
+			<destination>{55d0136b-3755-4480-b947-88c92ae0873a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4d507260-74a9-4c81-8722-8a922f2a261c}" />
@@ -184,4 +188,18 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{f8cc9a0d-686f-4d6a-906e-6fa89f944876}" />
+	<object class="SFXReverbEffect" id="{55d0136b-3755-4480-b947-88c92ae0873a}">
+		<property name="decayTime">
+			<value>950</value>
+		</property>
+		<property name="earlyDelay">
+			<value>78</value>
+		</property>
+		<property name="lateDelay">
+			<value>38</value>
+		</property>
+		<property name="wetLevel">
+			<value>-16</value>
+		</property>
+	</object>
 </objects>
