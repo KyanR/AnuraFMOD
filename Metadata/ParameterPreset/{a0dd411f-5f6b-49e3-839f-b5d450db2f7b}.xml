@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{a0dd411f-5f6b-49e3-839f-b5d450db2f7b}">
+		<property name="name">
+			<value>ReverbBig</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5d35a913-71c6-46a7-b08e-97bb9ecaca3e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{39db5849-b29c-45e6-9b3f-c4045957954f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{39db5849-b29c-45e6-9b3f-c4045957954f}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.38999998569488525</value>
+		</property>
+	</object>
+</objects>

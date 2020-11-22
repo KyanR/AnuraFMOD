@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{dfddd418-6b00-478b-9492-403ba2431eee}">
+		<property name="name">
+			<value>ConvoReverbBig</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{1b9233b2-e668-477a-b666-7cad48a1b443}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{37ce4a3e-c5b1-4bd9-868e-4e6f74a5e045}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{37237ccf-2b06-4588-9c11-2d208ee80437}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{1b9233b2-e668-477a-b666-7cad48a1b443}">
+		<relationship name="effects">
+			<destination>{1d6129bb-8145-4cfa-81dd-f7f10e67b35a}</destination>
+			<destination>{e56aef66-fd58-4580-9554-f0c961195f84}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{37ce4a3e-c5b1-4bd9-868e-4e6f74a5e045}" />
+	<object class="MixerBusFader" id="{1d6129bb-8145-4cfa-81dd-f7f10e67b35a}" />
+	<object class="ConvolutionReverbEffect" id="{e56aef66-fd58-4580-9554-f0c961195f84}">
+		<property name="endFrame">
+			<value>51015</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{ac170de4-2d33-429c-933b-90f4d51a538f}</destination>
+		</relationship>
+	</object>
+</objects>
