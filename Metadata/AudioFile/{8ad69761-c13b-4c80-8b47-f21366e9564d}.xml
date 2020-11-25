@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{8ad69761-c13b-4c80-8b47-f21366e9564d}">
+		<property name="assetPath">
+			<value>ToadFtstp.2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.953125</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2930ec92-efed-4b7a-aff4-7f5882af799b}</destination>
+		</relationship>
+	</object>
+</objects>
