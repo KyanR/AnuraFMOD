@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{b79b4919-d817-4b89-a11b-f56bdbbf270b}">
+		<property name="assetPath">
+			<value>Odod_StalBalk - Ui_Hover_Select_44100-001.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.14775510204081632</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2930ec92-efed-4b7a-aff4-7f5882af799b}</destination>
+		</relationship>
+	</object>
+</objects>
