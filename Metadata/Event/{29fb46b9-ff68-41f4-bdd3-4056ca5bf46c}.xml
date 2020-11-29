@@ -82,6 +82,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{1d271bfe-1074-40ec-b47f-17c8efe03158}">
+		<property name="volume">
+			<value>-11.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{28c0b02d-b1d5-456b-b18e-8c1afbd46cca}</destination>
 		</relationship>
@@ -131,7 +134,6 @@
 		<property name="length">
 			<value>0.85499999999999998</value>
 		</property>
-		<property name="name" />
 		<relationship name="modulators">
 			<destination>{ce5d4e43-5fc0-4e91-839b-1edd7769932e}</destination>
 			<destination>{fadb5066-a241-465c-872b-7ad815f628b1}</destination>
@@ -250,7 +252,7 @@
 			<value>2.20000005</value>
 		</property>
 		<property name="maximumDistance">
-			<value>70</value>
+			<value>60</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{5a784312-1499-4459-a205-b1f24216dddb}" />

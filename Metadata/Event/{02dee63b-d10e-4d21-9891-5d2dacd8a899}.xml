@@ -92,6 +92,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{9ada1724-c42e-4692-a41d-f8bbdf13bd97}">
+		<property name="volume">
+			<value>-8.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{96df2f44-0b11-4da6-b6cd-09950ce48e4b}</destination>
 		</relationship>
@@ -318,7 +321,7 @@
 			<value>2.20000005</value>
 		</property>
 		<property name="maximumDistance">
-			<value>70</value>
+			<value>60</value>
 		</property>
 	</object>
 	<object class="MixerSend" id="{84f90ca1-c3d8-4bd7-a4cf-1fbff7601ea3}">
