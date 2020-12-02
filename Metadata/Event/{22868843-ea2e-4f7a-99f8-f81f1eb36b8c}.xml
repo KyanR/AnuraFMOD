@@ -186,6 +186,7 @@
 			<destination>{192d6575-77a3-422b-a41d-df51ad285fcd}</destination>
 			<destination>{5c4d001a-cf8a-4a8c-9eda-7e07d26e906c}</destination>
 			<destination>{89800afd-91e9-41f8-8c6e-58752beb418b}</destination>
+			<destination>{8a01dab9-638c-48ad-b838-b147e410f8b4}</destination>
 			<destination>{6aba27f2-f98f-44da-9e41-13ffcf95544f}</destination>
 		</relationship>
 	</object>
@@ -208,6 +209,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{956cd073-9c3b-4c07-91fe-a2d2fdb17066}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{9ea4f353-a788-40a8-b460-fdccfc82834f}</destination>
 		</relationship>
@@ -218,6 +222,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{e55ac3a0-ba82-40ab-884e-89f442aabac2}">
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{581c77d9-fca7-4eb3-9837-3a4542dda3ab}</destination>
 		</relationship>
@@ -252,6 +259,14 @@
 		</property>
 		<property name="maximumDistance">
 			<value>25</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{8a01dab9-638c-48ad-b838-b147e410f8b4}">
+		<property name="lowGain">
+			<value>-6</value>
+		</property>
+		<property name="midGain">
+			<value>-2</value>
 		</property>
 	</object>
 	<object class="MixerSend" id="{6aba27f2-f98f-44da-9e41-13ffcf95544f}">
