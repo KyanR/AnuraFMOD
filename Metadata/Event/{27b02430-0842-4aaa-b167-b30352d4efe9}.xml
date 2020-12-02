@@ -241,13 +241,16 @@
 	<object class="MixerBusPanner" id="{6c274f04-5ad2-498e-bb4d-a62b93b68d1b}" />
 	<object class="MixerBusFader" id="{e22e0416-6595-41d0-82de-fc9b867d67d5}" />
 	<object class="SFXReverbEffect" id="{1118b7ce-a0e5-40e8-b6d3-a232c2c81159}">
+		<property name="decayTime">
+			<value>3100</value>
+		</property>
 		<property name="wetLevel">
 			<value>-3</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{7ee4628b-0322-43ca-8efd-197459973ccf}">
 		<property name="position">
-			<value>2</value>
+			<value>2.53125</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -267,7 +270,7 @@
 	<object class="MixerBusFader" id="{ab8b73fa-5546-4119-a6b7-2605c52745ff}" />
 	<object class="AutomationPoint" id="{8d72b824-c0c9-4cf6-9573-71aec7e7c5e8}">
 		<property name="position">
-			<value>2</value>
+			<value>2.53125</value>
 		</property>
 		<property name="value">
 			<value>1</value>
