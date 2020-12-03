@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{06f4f4db-1d6d-44c4-b233-d4f590010b03}">
+		<property name="name">
+			<value>ExitLock</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{0e23dc41-03f2-41d8-844f-a08985b258ff}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{11941b51-eb8e-4cda-bca1-fc9454dc6965}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{37237ccf-2b06-4588-9c11-2d208ee80437}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{0e23dc41-03f2-41d8-844f-a08985b258ff}">
+		<relationship name="effects">
+			<destination>{1d57aaf9-06ec-4898-ba2a-542e40f814bc}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{11941b51-eb8e-4cda-bca1-fc9454dc6965}" />
+	<object class="MixerBusFader" id="{1d57aaf9-06ec-4898-ba2a-542e40f814bc}" />
+</objects>

@@ -65,7 +65,7 @@
 			<destination>{ea049a61-876e-4709-8f9c-1bd04a39e3e7}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{37237ccf-2b06-4588-9c11-2d208ee80437}</destination>
+			<destination>{091a572a-f2f9-431d-8af4-f03ec872bbdf}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e13fe525-2aeb-4816-beeb-c1161d77ea50}" />
@@ -253,7 +253,6 @@
 		<property name="timelockedOffset">
 			<value>0.60000000000000009</value>
 		</property>
-		<property name="name" />
 		<property name="volume">
 			<value>10</value>
 		</property>
@@ -308,7 +307,6 @@
 		<property name="timelockedOffset">
 			<value>52.723500000000001</value>
 		</property>
-		<property name="name" />
 		<property name="volume">
 			<value>-8</value>
 		</property>
@@ -428,7 +426,6 @@
 		<property name="timelockedOffset">
 			<value>1</value>
 		</property>
-		<property name="name" />
 		<property name="pitch">
 			<value>-12</value>
 		</property>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="UiMixerView" id="{22cc6cca-57de-4ca4-8e06-c1043bfe3f0e}">
+		<property name="name">
+			<value>PauseMenu</value>
+		</property>
+		<relationship name="assignedStrips">
+			<destination>{d4792f6d-6d75-4d3b-a015-443c2793e9df}</destination>
+			<destination>{db4c9816-fb3c-4390-b47c-bc5399e3868e}</destination>
+			<destination>{5f0b2ee0-cb86-4218-9f99-f2608cf98dea}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{da7c17f9-bc31-45c9-b21f-3ef4da16cf03}</destination>
+		</relationship>
+	</object>
+</objects>
