@@ -3,6 +3,7 @@
 	<object class="Mixer" id="{da7c17f9-bc31-45c9-b21f-3ef4da16cf03}">
 		<relationship name="uiMixerView">
 			<destination>{22cc6cca-57de-4ca4-8e06-c1043bfe3f0e}</destination>
+			<destination>{0b25c28c-beb3-4fe4-8744-ee859fba3338}</destination>
 		</relationship>
 	</object>
 </objects>
